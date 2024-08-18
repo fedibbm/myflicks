@@ -1,0 +1,33 @@
+:root{
+  --primary-color:#F08080;
+  --secondary-color:#F4978E;
+  --third-color:#6d5276;
+  --dark-bg:#a47878;
+}
+/* stolen from tailwindcss :D */
+.shadow-md{
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+*{
+  box-sizing:border-box;
+  padding:0;
+  margin:0;
+  text-decoration: none;
+  list-style: none;
+  color:inherit;
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: var(--dark-bg);
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
